@@ -26,7 +26,7 @@ The data being used in this tutorial is in /housing-data and [contains informati
 
 # Steps
 
-1. Run the following docker command
+1. Run the following docker command from the quickstart terminal
 ```
 docker run -e POSTGRES_USER=admin -e POSTGRES_PASS=password -e POSTGRES_DBNAME=gis -e ALLOW_IP_RANGE=0.0.0.0/0 -p 5432:5432 -v pg_data:/var/lib/postgresql kartoza/postgis
 ```
