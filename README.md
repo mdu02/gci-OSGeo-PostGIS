@@ -34,9 +34,12 @@ docker run -e POSTGRES_USER=admin -e POSTGRES_PASS=password -e POSTGRES_DBNAME=g
 2. Open up QGIS.
 3. In the "browser" section of the QGIS window, right-click on PostGIS and select "New Connection"
 4. Fill out the dialogue box. The database name is the flag in the docker command, the IP is the host IP from the docker window, and the username and password and the flags in the command as well.
+
 ![](./tutorial-images/qgis_connection.png)
 5. Click the database menu at top, then DB Manager. Double-click on PostGIS, then the connection you have created.
+
 ![](./tutorial-images/db_manager.png)
 6. Click the "import layer/file" button, then navigate to your desired layer. Click OK, and your database should now contain the layer.
+
 ![](./tutorial-images/import_vector.png)
 
